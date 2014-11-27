@@ -1,34 +1,11 @@
-FlexibleOrders
-==============
-
-FlexibleOrders is a java web application for maintaining and printing orders, invoices, shipping info, etc.
-The intention of this application is the basic mapping of one process in java using (latest) state-of-the-art techniques.
-Used technologies are Spring, Hibernate and ExtJs as GUI. Core Elements are Spring-Data's "Repositories" and "Services".
-The domain model is depicted with POJOs.
-
-
-Domain model - the purchasing process
--------------------------------------
-An `Order` consists of `OrderItems`. Flexible Order assigns `ReportItem`s to those `OrderItems`. 
-Report Items can be:
-
-- `ConfirmationItem` as part of a `Confirmation Report`
-- `ShippingItem` as part of `DeliveryNotes`
-- `InvoiceItem` as part of a `Invoice`
-- `ReceiptItem` as part of a `Receipt`
-
-    *One feature of this application is to provide the process easy modifiable to any (IT)-users so they can be free to modify this application for their own needs.*
-
-Process depicted
-----------------
-Each report item represents a state of a purchasing process.  
-This report generation enables piecemeal delivering and flexibility in changing reports.
+Flexible-ERP
+============
 
 Getting started
 ---------------
-FlexibleOrders is developed with Eclipse with Spring Tool Suite (STS). In order to program it run from command line: 
+Flexible-ERP is developed with Eclipse. In order to program it run from command line: 
 
-`git clone git@github.com:Switajski/FlexibleOrders.git`
+`git clone git@github.com:Switajski/Flexible-ERP.git`
 
 `mvn eclipse:eclipse`
 
@@ -46,7 +23,7 @@ License
 -------
 This application is using ExtJs. The licensing model of this application is bound to ExtJs open source license (GPL license v3 - http://www.sencha.com/products/extjs/license/)
 
-    Copyright 2012 Markus Switajski
+    Copyright 2014 Markus Switajski & Mariusz Malinowski
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
