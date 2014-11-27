@@ -3,7 +3,7 @@ Flexible-ERP
 
 Getting started
 ---------------
-Flexible-ERP is developed with Eclipse. In order to program it run from command line: 
+Flexible-ERP is developed with Eclipse. In order to open the project via eclipse, run from command line: 
 
 `git clone git@github.com:Switajski/Flexible-ERP.git`
 
@@ -17,7 +17,7 @@ and start the application server with a running DB. Postgres is preconfigured.
 
 Contribute
 ----------
-Just send me an email to marek@switajski.de
+Just send me an email to marek@switajski.de or m-malinowski@o2.pl
 
 License
 -------
